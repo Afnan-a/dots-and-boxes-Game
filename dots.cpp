@@ -17,9 +17,13 @@ void initializeboard();
 void Yellow(string ch);
 void insertMove(int v, int h, char ch);
 void printb();
-bool score(int i, int j);   // this function check if the new move make a closed square, if so it increases the score of the player
+bool score(int i, int j);   // this function check if the new move make a closed square, if so it increases the score of the player 
+bool Result(int i, int j); // (Return a state after action a taken in state s)
+int numAvailableMoves();
 
-int main(int argc, char **argv)
+
+
+int main()
 {
     char ch;
     int m1, m2, row;
