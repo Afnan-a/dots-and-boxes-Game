@@ -32,12 +32,6 @@ int main()
     b1.setInitial(c); */
     b1.initializeboard();
     
-    /*cout<< "Your Turn!" << endl;
-    cout << "Enter 'v' and row number for virtical move OR 'h' and column number for horizontal move and two dots to connect EX: v 1 1 2: \n";
-    cin >> c >> n >> x >> y;
-    b1.insertMove(n,x,y,c,false);
-    b1.decreasenumavailable();*/
-    //b1.AgentTurn() = false;
 
     while(num > 0)
     {
